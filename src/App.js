@@ -1,5 +1,5 @@
 import "./App.css";
-import ImageSlider from "./ImageSlider";
+import ImageSlider1 from "./ImageSlider1";
 
 const App = () => {
   const slides = [
@@ -9,15 +9,14 @@ const App = () => {
     { url: "http://localhost:3000/arc.jpeg", title: "4" },
   ];
   const containerStyles = {
-    whidth: "500px",
+    width: "500px",
     height: "280px",
     margin: "0 auto",
   };
   return (
     <div>
-      <h1>Hello</h1>
       <div style={containerStyles}>
-        <ImageSlider slides={slides} />
+        <ImageSlider1 slides={slides} />
       </div>
     </div>
   );
